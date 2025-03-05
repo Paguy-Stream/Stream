@@ -113,3 +113,13 @@ footer a{
     background: url(/images/cocktail_05.jpg);
     background-size: cover;
 }
+
+#cocktais>div h3{
+    font-style: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    bottom: #00000080;
+    border-radius: 10px;
+    padding: 5px;
+}
