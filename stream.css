@@ -31,9 +31,24 @@ header span{
     font-size: 30px;
 }
 
-header img{
+header img {
     height: 300px;
+    opacity: 0;
+    transform: scale(0.9);
+    animation: fadeInLogo 1s ease-in-out forwards;
 }
+
+@keyframes fadeInLogo {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 #about{
     display: flex;
     justify-content: space-between;
@@ -63,11 +78,14 @@ header img{
 
 }
 
-#about div:hover{
-    box-shadow: 12px 12px 2px 1px #f25a2980;
-    color: #e0eff2;
-    text-shadow: -4px 3px 0 black;
+#about div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(242, 90, 41, 0.5);
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    transition: all 0.3s ease-in-out;
 }
+
 
 
 
@@ -83,6 +101,7 @@ header img{
     équivalent à */
     gap: 10px;
 }
+
 
 #cocktails>div{
     position: relative;
@@ -158,16 +177,19 @@ header img{
     width: 140px;
 }
 
-.overlay p{
-    font-size: 25px;
+.overlay p {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
 }
+
 
 #cocktails>div:hover .overlay{
     z-index: 1;
     transform: translateY(0) rotate(360deg);
     top: 0;
+    opacity: 1;
 }
 
 footer{
@@ -186,3 +208,4 @@ footer a{
     text-decoration: none;
     color: #fff;
 }
+
