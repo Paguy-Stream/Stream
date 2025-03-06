@@ -1,4 +1,14 @@
+:root{
+    --primary-color:#f25a29;
+    --secondary-color: #373737;
+    --background-color: #555555;
+    --text-color: white;
+    --font-family: Arial, sans-serif;
+}
+
+
 body{
+    font-family: var(--font-family);
     background: url(/images/background.jpg) no-repeat fixed;
     background-size: cover;
     color: white;
@@ -124,7 +134,7 @@ header img{
     padding: 10px 20px;
     margin: 10px;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), -1px -1px 2px rgba(255, 255, 255, 0.3);
     border: 2px solid #f25a29;
 }
 
@@ -133,7 +143,7 @@ header img{
     height: 100%;
     width: 100%;
     top: 100%;
-    transition: all 1s;
+    transition: opacity 0.5s ease, transform 0.5s ease;
     background: linear-gradient(180deg, #f25a29 0%, #373737 100%);
     /*Disposition flex */
     display: flex;
@@ -156,7 +166,7 @@ header img{
 
 #cocktails>div:hover .overlay{
     z-index: 1;
-    transform: rotate(360deg);
+    transform: translateY(0) rotate(360deg);
     top: 0;
 }
 
