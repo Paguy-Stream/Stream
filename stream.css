@@ -79,6 +79,14 @@ footer a{
 #cocktails{
     padding: 150px 20px;
     margin: 10px 20%;
+    display: grid;
+    grid-template-areas: 
+    "cocktail_01 cocktail_01 cocktail_01 cocktail_02 cocktail_02 cocktail_02"
+    "cocktail_03 cocktail_03 cocktail_04 cocktail_04 cocktail_05 cocktail_05";
+    /* colum-gap: 10px;
+    row-gap: 10px;
+    équivalent à */
+    gap: 10px;
 }
 
 #cocktails>div{
@@ -88,7 +96,7 @@ footer a{
     align-items: center;
     flex-direction: column;
     height: 300px;
-    border: 3px solid; #f25a29;
+    border: 3px solid #f25a29;
     box-shadow: 12px 12px 2px 1px #f25a2980;
     border-radius: 10px;
 }
