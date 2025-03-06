@@ -117,11 +117,15 @@ header img{
 #cocktails>div h3{
     font-size: 20px;
     text-transform: uppercase;
-    color: white;
+    color: #f25a29;
     font-weight: 800;
-    background-color: 00000080;
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border: 2px solid #f25a29;
 }
 
 .overlay{
