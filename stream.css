@@ -96,28 +96,33 @@ footer a{
     align-items: center;
     flex-direction: column;
     height: 300px;
-    border: 3px solid #f25a29;
+    border: 3px solid; #f25a29;
     box-shadow: 12px 12px 2px 1px #f25a2980;
     border-radius: 10px;
 }
 
 .sunmoon{
+    grid-area: cocktail_01;
     background: url(/images/cocktail_01.jpg);
     background-size: cover;
 }
 .mentalux{
+    grid-area: cocktail_02;
     background: url(/images/cocktail_02.jpg);
     background-size: cover;
 }
 .cocowhip{
+    grid-area: cocktail_03;
     background: url(/images/cocktail_03.jpg);
     background-size: cover;
 }
 .citrinus{
+    grid-area: cocktail_04;
     background: url(/images/cocktail_04.jpg);
     background-size: cover;
 }
 .spicherry{
+    grid-area: cocktail_05;
     background: url(/images/cocktail_05.jpg);
     background-size: cover;
 }
