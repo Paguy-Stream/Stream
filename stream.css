@@ -131,6 +131,7 @@ footer a{
     width: 100%;
     right: 100%;
     left: 100%;
+    bottom: 100%;
     top: 100%;
     transition: all  1s;
     background: linear-gradient(180deg, #f25a29 0%, #373737 100%);
