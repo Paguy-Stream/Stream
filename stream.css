@@ -96,7 +96,7 @@ footer a{
     align-items: center;
     flex-direction: column;
     height: 300px;
-    border: 3px solid; #f25a29;
+    border: 3px solid #f25a29;
     box-shadow: 12px 12px 2px 1px #f25a2980;
     border-radius: 10px;
 }
