@@ -245,4 +245,64 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #f25a29;
 }
+section {
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+#accueil {
+    background: url('/images/background.jpg') no-repeat center center/cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#reservation {
+    background-color: #373737;
+    padding: 50px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#reservation form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#reservation input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#reservation button {
+    background: #f25a29;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#reservation button:hover {
+    background: #d14a21;
+}
+
+#contact {
+    background: #555555;
+    padding: 50px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
 
